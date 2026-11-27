@@ -19,3 +19,60 @@ h1 {
 main {
     padding: 20px;
 }
+/* Container for the news section */
+.news-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title of the news section */
+.news-container h2 {
+  color: #333;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+/* Individual news item */
+.news-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+/* Last item no border */
+.news-item:last-child {
+  border-bottom: none;
+}
+
+/* Hover effect on a news item */
+.news-item:hover {
+  background-color: #e9f2ff;
+}
+
+/* News headline */
+.news-item h3 {
+  margin: 0 0 5px 0;
+  color: #007BFF;
+  font-size: 18px;
+}
+
+/* News summary or description */
+.news-item p {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Date style */
+.news-date {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+  font-style: italic;
+}
